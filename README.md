@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *YourNameHere*
-* ID: *YourIdHere*
+* Name: *Bùi Lê Đức Anh*
+* ID: *22BI13010*
 * Group ID: *Your Group ID here*
 * Project Name: *Your Project Name here*
