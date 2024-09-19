@@ -12,5 +12,5 @@ Student Info
 
 * Name: *Bùi Lê Đức Anh*
 * ID: *22BI13010*
-* Group ID: *Your Group ID here*
+* Group ID: *Group ID: 4*
 * Project Name: *Nasa Client*
