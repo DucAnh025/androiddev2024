@@ -115,6 +115,22 @@ public class WeatherActivity extends AppCompatActivity {
         if (id == R.id.action_refresh) {
             // Hiển thị thông báo khi nhấn Refresh
             Toast.makeText(this, "Refreshing...", Toast.LENGTH_SHORT).show();
+
+            new Thread(() -> {
+                // Giả lập việc lấy dữ liệu trong 2 giây
+                try {
+                    Thread.sleep(2000);  // Giả lập thời gian chờ
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                // Cập nhật UI sau khi hoàn thành
+                runOnUiThread(() -> {
+                    // Hiển thị thông báo hoàn thành
+                    Toast.makeText(WeatherActivity.this, "Data refreshed!", Toast.LENGTH_SHORT).show();
+                });
+            }).start();
+
             return true;
         }
 
